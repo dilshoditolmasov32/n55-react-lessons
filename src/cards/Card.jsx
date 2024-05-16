@@ -33,7 +33,7 @@ const Card = () => {
   const item = items?.map((value) => (
     <>
       <div className="card" key={value.id}>
-        <div>
+        <div className="card_img">
           <img src={value.image} alt="image" />
         </div>
         <div>

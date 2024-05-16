@@ -24,6 +24,7 @@ li {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 70px;
+  gap: 10px;
 }
 
 .hero_page {
@@ -83,4 +84,39 @@ li {
   line-height: 20.56px;
   text-align: center;
   color: #21243d;
+}
+
+@media (max-width: 575px) {
+  .hero {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    gap: 10px;
+  }
+
+  .hero_page {
+    margin-bottom: 40px;
+    margin-top: 40px;
+  }
+
+  .btn-resume {
+    margin-bottom: 40px;
+    text-align: center;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    width: 80%;
+  }
+
+  .hero-img {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+  }
+
+  .hero h1 {
+    text-align: center;
+    color: #21243d;
+  }
 }

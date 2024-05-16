@@ -69,3 +69,12 @@
   text-align: left;
   color: #21243d;
 }
+
+@media (max-width: 675px) {
+  .boxs {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+  }
+}

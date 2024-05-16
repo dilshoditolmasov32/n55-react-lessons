@@ -31,13 +31,13 @@ const App = () => {
             </p>
             <button className="btn-resume">Download Resume</button>
           </div>
-          <div>
+          <div className="hero-img">
             <img src={hero} alt="img" />
           </div>
         </div>
       </div>
 
-      <Box /> 
+      <Box />
 
       <Card />
 

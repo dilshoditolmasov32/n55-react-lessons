@@ -7,7 +7,6 @@
 
 .cards_page {
   margin-bottom: 80px;
-
 }
 
 .cards h5 {
@@ -65,4 +64,28 @@
 .line {
   border: 1px solid #e0e0e0;
   margin-top: 15px;
+}
+
+@media (max-width: 750px) {
+  .card {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 18px;
+    margin-top: 31px;
+  }
+
+  .card_img img {
+    width: 100%;
+    text-align: center;
+  }
+  .card_img {
+    text-align: center;
+  }
+}
+
+@media (max-width: 400px) {
+  .card_img img {
+    width: 130%;
+  }
 }
