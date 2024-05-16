@@ -5,6 +5,7 @@ import instagram from "./assets/instagram.svg";
 import linkedin from "./assets/linkedin.svg";
 import twitter from "./assets/twitter.svg";
 import facebook from "./assets/facebook.svg";
+import Box from "./boxs/Box";
 
 const App = () => {
   return (
@@ -35,6 +36,8 @@ const App = () => {
           </div>
         </div>
       </div>
+
+      <Box /> 
 
       <Card />
 
