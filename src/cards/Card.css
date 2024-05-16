@@ -1,0 +1,68 @@
+.card {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  margin-top: 31px;
+}
+
+.cards_page {
+  margin-bottom: 80px;
+
+}
+
+.cards h5 {
+  font-family: Heebo;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 60px;
+  text-align: left;
+  color: #21243d;
+}
+
+.card h2 {
+  font-family: Heebo;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 44.06px;
+  color: #21243d;
+  margin-bottom: 20px;
+  text-align: left;
+  margin-top: 15px;
+}
+
+.card h3 span {
+  background: #142850;
+  border-radius: 16px;
+  color: #fff;
+  font-family: Heebo;
+  font-size: 18px;
+  font-weight: 900;
+  line-height: 60px;
+  text-align: left;
+  padding: 4px 10px;
+  margin-right: 25px;
+}
+
+.card h3 {
+  font-family: Heebo;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 29.38px;
+  text-align: left;
+  color: #8695a4;
+  margin-bottom: 22px;
+}
+
+.card p {
+  font-family: Heebo;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 23.5px;
+  text-align: left;
+  color: #21243d;
+}
+
+.line {
+  border: 1px solid #e0e0e0;
+  margin-top: 15px;
+}
