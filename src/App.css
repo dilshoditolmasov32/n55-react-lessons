@@ -120,3 +120,54 @@ li {
     color: #21243d;
   }
 }
+
+.gamburger-menu {
+  display: none;
+}
+
+@media (max-width: 600px) {
+  .gamburger-menu {
+    display: block;
+    background: none;
+    border: none;
+  }
+
+  .navbar {
+    display: none;
+  }
+
+  .nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  .hero_page {
+    margin-top: 150px;
+  }
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 70px;
+  width: 70%;
+  right: 0;
+  background: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+.dropdown-menu li {
+  list-style: none;
+  padding: 15px 0;
+  cursor: pointer;
+}
+
+.dropdown-menu li:hover {
+  background-color: #ff6464;
+  cursor: pointer;
+  width: 100%;
+  text-align: center;
+}

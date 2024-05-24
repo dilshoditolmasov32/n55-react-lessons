@@ -6,8 +6,15 @@ import linkedin from "./assets/linkedin.svg";
 import twitter from "./assets/twitter.svg";
 import facebook from "./assets/facebook.svg";
 import Box from "./boxs/Box";
+import { Fade as Hamburger } from "hamburger-react";
+import { useState } from "react";
 
 const App = () => {
+  const [isOpen, setOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setOpen(!isOpen);
+  };
   return (
     <>
       <div className="nav">
@@ -16,7 +23,19 @@ const App = () => {
           <li>Blog</li>
           <li>Contact</li>
         </div>
+
+        <button className="gamburger-menu" onClick={toggleMenu}>
+          <Hamburger toggled={isOpen} toggle={setOpen} />
+        </button>
       </div>
+
+      {isOpen && (
+        <div className="dropdown-menu">
+          <li>Works</li>
+          <li>Blog</li>
+          <li>Contact</li>
+        </div>
+      )}
 
       <div className="hero_page">
         <div className="hero container">
